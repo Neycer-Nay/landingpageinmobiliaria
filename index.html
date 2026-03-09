@@ -7,62 +7,61 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <title>Inmobiliaria Casa & Chalet</title>
     <style>
-        .navbar {
-            position: sticky;
-            top: 0;
-            z-index: 1030;
-        }
+    body {
+        padding-top: 80px; 
+    }
+    
+    .hero {
+        color: white;
+        text-align: center;
+        padding: 100px 20px;
+    }
 
-        .hero {
-            background: url('https://via.placeholder.com/1920x600') no-repeat center center/cover;
-            color: white;
-            text-align: center;
-            padding: 100px 20px;
-        }
+    .service-card img {
+        height: 200px;
+        object-fit: cover;
+    }
 
-        .service-card img {
-            height: 200px;
-            object-fit: cover;
-        }
-
-        footer {
-            background-color: #343a40;
-            color: white;
-            padding: 20px 0;
-        }
-    </style>
+    footer {
+        background-color: #343a40;
+        color: white;
+        padding: 20px 0;
+    }
+</style>
 </head>
 
 <body>
     <!-- Encabezado -->
     <header>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <div class="container">
-                <a class="navbar-brand d-flex align-items-center" href="#">
-                    <img src="img/LOGO-BLANCO.png" alt="Logo Casa & Chalet" class="img-fluid" style="height: 80px;" />
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav ms-auto">
-                        <li class="nav-item">
-                            <a class="nav-link active" href="#inicio">Inicio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#servicios">Servicios</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#nosotros">Nosotros</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#contacto">Contacto</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
+        <nav class="navbar navbar-dark bg-dark fixed-top">
+    <div class="container">
+        <a class="navbar-brand d-flex align-items-center" href="#">
+            <img src="img/LOGO-BLANCO.png" alt="Logo Casa & Chalet" class="img-fluid" style="height: 80px;" />
+        </a>
+        <!-- Menú hamburguesa (aparece en todas las pantallas) -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- Opciones del menú (colapsable en todas las pantallas) -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#inicio">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#servicios">Servicios</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#nosotros">Nosotros</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contacto">Contacto</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
     </header>
 
     <!-- Hero Section -->
@@ -91,8 +90,7 @@
                 </div>
                 <div class="col-md-4">
                     <div class="card service-card">
-                        <img src="img/alquiler.jpg" class="card-img-top"
-                            alt="Alquiler de Propiedades">
+                        <img src="img/alquiler.jpg" class="card-img-top" alt="Alquiler de Propiedades">
                         <div class="card-body">
                             <h5 class="card-title">Alquiler de Propiedades</h5>
                             <p class="card-text">Te ayudamos a encontrar el lugar ideal para alquilar.</p>
@@ -101,8 +99,7 @@
                 </div>
                 <div class="col-md-4">
                     <div class="card service-card">
-                        <img src="img/asesoria.jpg" class="card-img-top"
-                            alt="Asesoramiento Inmobiliario">
+                        <img src="img/asesoria.jpg" class="card-img-top" alt="Asesoramiento Inmobiliario">
                         <div class="card-body">
                             <h5 class="card-title">Asesoramiento Inmobiliario</h5>
                             <p class="card-text">Recibe la mejor asesoría para tus inversiones inmobiliarias.</p>
@@ -127,7 +124,7 @@
         <div class="container text-center">
             <h2>Contáctanos</h2>
             <p>¿Tienes alguna pregunta? ¡Estamos aquí para ayudarte!</p>
-            <a href="https://wa.me/59175026366?text=Quiero%20vender%20mi%20casa" target="_blank"
+            <a href="https://wa.me/59169234558?text=Quiero%20vender%20mi%20casa" target="_blank"
                 class="btn btn-success d-inline-flex align-items-center">
                 <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" alt="WhatsApp" class="me-2"
                     style="width: 20px; height: 20px;" />
@@ -140,7 +137,7 @@
     <footer class="text-center">
         <div class="container">
             <p>&copy; 2026 Casa & Chalet. Todos los derechos reservados.</p>
-            <p>Contacto: info@casaychalet.com | Teléfono: +591 75026366</p>
+            <p>Contacto: info@casaychalet.com | Teléfono: +591 69234558</p>
         </div>
     </footer>
 
